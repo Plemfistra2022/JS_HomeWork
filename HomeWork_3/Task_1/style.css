@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.users-box{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.user-block{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.address-block{
+    padding-top: 20px;
+}
