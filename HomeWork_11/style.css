@@ -1,0 +1,31 @@
+
+#recipes{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.recipe-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rating{
+    margin: 10px;
+}
+.img{
+    width: 25vw;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+.infoP{
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
